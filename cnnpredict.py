@@ -100,7 +100,7 @@ import  numpy as np
 sess = keras.backend.get_session()
 
 
-for i in ["/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/buttons/button_1.png","/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/buttons/button_2.png","/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/buttons/button_3.png","/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/inputs/input_1.png","/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/inputs/input_2.png","/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/inputs/input_3.png","/home/nithila/Hobby/classifierNew/Classifer2/Data/Data/paragraphs/para_1.png"]:
+for i in ["Test/test_1.png","Test/test_2.png"]:
     import numpy as np
     from keras.preprocessing import image
 

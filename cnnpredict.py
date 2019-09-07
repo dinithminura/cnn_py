@@ -109,6 +109,7 @@ for i in ["Test/test_1.png","Test/test_2.png"]:
     test_image = np.expand_dims(test_image, axis=0)
     result = classifier.predict(test_image)
     #training_set.class_indices
+    print(result)
     print(result[0][0])
     if result[0][0] == 1:
         prediction = 'input'

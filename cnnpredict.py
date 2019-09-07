@@ -86,12 +86,12 @@ from keras.layers import Dense
 
 
 from keras.models import model_from_json
-json_file = open('/home/nithila/Hobby/classifierNew/Classifer2/model.json', 'r')
+json_file = open('model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 classifier = model_from_json(loaded_model_json)
 # load weights into new model
-classifier.load_weights("/home/nithila/Hobby/classifierNew/Classifer2/model.h5")
+classifier.load_weights("model.h5")
 
 
 
